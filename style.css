@@ -23,6 +23,11 @@ nav {
 .logo {
   height: 70px;
 }
+.logo:hover {
+  transform: translateY(-3px);
+
+  cursor: pointer;
+}
 .nav-link ul {
   display: flex;
   list-style: none;
@@ -36,6 +41,12 @@ nav {
   font-size: 17px;
   line-height: 24px;
 }
+
+.nav-link a:hover {
+  transition: 0.2s ease-in;
+  transform: translateY(2px);
+  color: #1690ce;
+}
 .top-header {
   height: 100%;
   background-image: linear-gradient(
@@ -46,6 +57,7 @@ nav {
     url(img/bannerprime.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .col-1 {
   color: white;
