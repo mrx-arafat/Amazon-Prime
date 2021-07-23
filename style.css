@@ -37,6 +37,7 @@ nav {
   line-height: 24px;
 }
 .top-header {
+  height: 100%;
   background-image: linear-gradient(
       to right,
       #000 35%,
@@ -46,7 +47,7 @@ nav {
 }
 .col-1 {
   color: white;
-  width: 60%;
+  width: 40%;
   padding: 5%;
 }
 .col-1 h1 {
@@ -58,11 +59,11 @@ nav {
   font-size: 21px;
   font-weight: 400;
   line-height: 27px;
-  margin-bottom: 50px;
+  margin-bottom: 65px;
 }
 
 .col-1 a {
-  padding: 10px 20px;
+  padding: 15px 40px;
   background-color: #107ab0;
   font-weight: 700;
   font-size: 17px;
@@ -70,8 +71,8 @@ nav {
   color: #ffff;
 }
 .bottom-text {
-  margin-top: 30px;
-  font-size: 15px;
+  margin-top: 45px;
+  font-size: 13px;
 }
 .body-sec {
   padding: 4%;
@@ -87,7 +88,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 50px auto;
+  margin: 40px auto;
 }
 
 .col h1 {
