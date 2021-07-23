@@ -44,6 +44,8 @@ nav {
       rgba(255, 255, 255, 0.205)
     ),
     url(img/bannerprime.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .col-1 {
   color: white;
@@ -159,7 +161,7 @@ nav {
   }
 
   .col-1 {
-    width: 90%;
+    width: 60%;
   }
 
   .row-2 {
