@@ -152,3 +152,30 @@ nav {
     margin-left: 40px;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    height: 10vh;
+  }
+
+  .col-1 {
+    width: 90%;
+  }
+
+  .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    margin: 20px auto;
+  }
+
+  .footer-logo {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+}
